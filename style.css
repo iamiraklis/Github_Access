@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: #7f53ac;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+font-family: "Poppins", sans-serif;
+margin: 0;
+min-height: 100vh;
+
+}
+
+input{
+    background-color: #4b68eb;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .5rem;
+    display: flex;
+    margin-left:auto;
+    margin-left:1rem;
+    margin-top:1rem;
+}
+
+
+input::placeholder {
+    color: #eee;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.info-card {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+    
+    margin: auto;
+    margin-top:6rem;
+    width: 50%;
+}
+
+.info-card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.user-avatar {
+    border: 2px solid #7f53ac;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+
+    margin-left: 2rem;
+}
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info p {
+    margin-top: -20px;
+}
+
+.no-bio{
+    margin-bottom: 2rem;
+}
+
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.user-info ul li strong {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.repo{
+    background-color: #7f53ac;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem .5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: top ease 0.5s;
+}
+
+.repo:hover{
+    box-shadow: 0 5px 5px rgba(155, 155, 155, 0.25), 0 5px 5px rgba(119, 119, 119, 0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
